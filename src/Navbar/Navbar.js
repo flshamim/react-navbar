@@ -10,9 +10,9 @@ const Navbar = () => {
     ]
     const [open, setOpen] = useState(false)
     return (
-        <div className='bg-green-300 m-0'>
+        <div className='bg-green-300 m-0 '>
             <div onClick={() => setOpen(!open)}>
-                <MenuIcon className='w-10 h-10 md:hidden m-0'></MenuIcon>
+                <MenuIcon className='w-10 h-10 md:hidden m-0 '></MenuIcon>
                
             </div>
             <div className={` md:flex justify-center absolute duration-500 bg-green-300 w-full p-10 ease-in m-0 ${open ? 'top-10' :'m-0 top-[-200px] md:top-0'}`}>
